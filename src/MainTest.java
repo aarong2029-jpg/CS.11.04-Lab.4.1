@@ -1,4 +1,4 @@
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.assertEquals;
 
 class  MainTest {
 
@@ -8,6 +8,7 @@ class  MainTest {
         assertEquals(false, Main.parenthesesCheck(")(()))"));
         assertEquals(false, Main.parenthesesCheck("("));
         assertEquals(true, Main.parenthesesCheck("(())((()())())"));
+
     }
 
     @org.junit.jupiter.api.Test
